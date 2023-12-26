@@ -1,0 +1,222 @@
+body{
+    background-color: black;
+    margin-bottom: 50px;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky ;
+    top: 0;
+}
+nav h1{
+    color: orange;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.menu a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.menu a:hover{
+    color: orange;
+}
+.about img{
+    width: 700px;
+    height: 500px;
+   border-radius: 50%;
+   align-content: right;
+   margin-top: -70px;
+   background-color: orange;
+}
+.about h1{
+    font-size: 80px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: -10px;
+    font-style: italic;
+    text-indent: 30px;
+}
+.about span{
+    color: orange;
+    margin-left: 70px;
+}
+.about p{
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 20px;
+    text-indent: 50px;
+    color: white;
+}
+.about button{
+    font-size: 30px;
+    margin-left: 30px;
+    border: 5px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+}
+.container2{
+    color: white;
+    margin-top: 300px;
+    font-family: sans-serif;
+}
+ .container2 h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container2 span{
+    font-size: 35px;
+    color: orange;
+    font-style: bold;
+}
+.education{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.education ul li{
+    margin-bottom: 50px; 
+}
+.container3{
+    margin-top: 150px;
+    color: white;
+    margin-bottom: -100px;
+    font-family: sans-serif;
+}
+.container3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container3 h3{
+    font-size: 30px;
+   
+}
+.container3 span{
+    color: orange;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.codingskills{
+    box-sizing: content-box;
+    box-shadow: 5px 5px 10px 10px;
+    margin-right: 40px;
+    margin-left: 30px;
+    padding: 40px;
+    text-align: center;
+}
+.technicalskills{
+    box-sizing: content-box;
+    box-shadow: 5px 5px 10px 10px;
+    margin-left: 30px;
+    padding: 40px;
+    text-align: center;
+}
+progress{
+    background-color: rgb(113, 19, 213);
+    margin-left: 5px;
+    height: 5px;
+}
+.container4{
+    color: white;
+    margin-top: 300px;
+}
+.container4 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.pro-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.project{
+    margin-top: 60px;
+    box-sizing: content-box;
+    box-shadow: 5px 5px 10px 10px;
+    padding: 30px;
+    width: 300px;
+}
+.project a{
+    text-decoration: none;
+    color: white;
+}
+.project button{
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 50px;
+}
+.container5{
+    color: white;
+    margin-top: 100px;
+    font-family: sans-serif;
+    margin-top: 300px;
+}
+.container5 h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 30px;
+    box-sizing: content-box;
+    box-shadow: 5px 5px 5px 5px;
+}
+.container5 input{
+    size: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 50px ;
+    width: 500px;
+    font-size: 30px;
+    color: black;
+ }
+ .container5 textarea{
+    size: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    color: black;
+ }
+ ::placeholder{
+    font-size: 20px;
+    color: orange;
+ }
+ .container5 button{
+    font-size: 30px;
+    margin-bottom: -40px;
+    margin-left: 200px;
+    background-color: orange;
+    border: 5px solid orange;
+    border-radius: 10px;
+ }
+ .media img{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 60px;
+    border: 10px orange;
+    box-shadow: 5px 5px  10px 10px;
+    border-radius: 50%;
+}
+
+ 
